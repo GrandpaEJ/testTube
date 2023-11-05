@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Downloader</title>
+</head>
+<body>
+    <h1>YouTube Downloader</h1>
+    <input type="text" id="videoUrl" placeholder="Enter YouTube Video URL">
+    <button id="downloadButton">Download</button>
+    
+    <div id="options">
+        <p>Choose download type:</p>
+        <input type="radio" name="downloadType" value="video" id="videoRadio"> Video
+        <input type="radio" name="downloadType" value="audio" id="audioRadio"> Audio
+    </div>
+
+    <div id="resolutionOptions">
+        <p>Choose video resolution:</p>
+        <select id="resolutionSelect"></select>
+    </div>
+    
+    <div id="downloadPath">
+        <p>Enter download path:</p>
+        <input type="text" id="pathInput" placeholder="e.g., /sdcard/download/">
+    </div>
+    
+    <button id="startDownloadButton">Start Download</button>
+
+    <div id="downloadStatus"></div>
+
+    <script src="main.js"></script>
+</body>
+      </html>
+                            
